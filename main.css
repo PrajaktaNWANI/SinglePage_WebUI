@@ -1,0 +1,76 @@
+.navbar-dark .navbar-nav .nav-link 
+{
+ color: white !important;
+}
+.nav-link 
+{
+    transition: 0.3s ease;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+  
+.nav-link:hover 
+{
+    
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0; 
+}
+
+
+.btn-learnmore
+{
+    width: fit-content;
+}
+
+.index
+{
+    width: 100%;
+    background-image: url('bg-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    
+}
+.fa-dribbble
+{
+    color: #ff689b;
+    font-size: 48px !important;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.fa-file-text-o
+{
+    color: #3fcdc7;
+    font-size: 48px !important;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.fa-tachometer
+{
+    color: #41cf2e;
+    font-size: 48px !important;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.fa-globe
+{
+    color: #2282ff;
+    font-size: 48px !important;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+#index,#aboutus,#services,#pricing, #contact, #ourteam
+{
+    background: url(white_bg.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    position: relative;
+}
+.card
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
